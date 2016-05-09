@@ -1,6 +1,6 @@
 ## This function creates a special "matrix" object that can cache its inverse.
 
-akeCacheMatrix <- function(x = matrix()) {
+makeCacheMatrix <- function(x = matrix()) {
       cache <- NULL
       set <- function(y) {
             x <<- y
